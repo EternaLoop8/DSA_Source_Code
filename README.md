@@ -1,2 +1,2 @@
-# C++-DSA-Source-Code
+# C-DSA-Source-Code
 hello
