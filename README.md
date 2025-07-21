@@ -1,7 +1,7 @@
 # C++-DSA-Source-Code
 This repository contains my journey through Data Structures and Algorithms (DSA). I will be sharing my source code from the learnings with proper explanation.
 
-## Topics Covered (or will be covered)
+## Topics Covered (or to be covered)
 
 - Arrays
 - Binary Search
