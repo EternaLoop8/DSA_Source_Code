@@ -1,45 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// This class contains the solution to check if the array is a rotated sorted array
-class Solution {
-public:
-    // Function to check if the given array is sorted and rotated
-    bool check(vector<int>& nums) {
-        int cnt = 0;
+// Function to check if the array is sorted and rotated
+bool isSortedAndRotated(const vector<int>& nums) {
+    int cnt = 0;
+    int n = nums.size();
 
-        // Count the number of times the array is not in ascending order
-        for (int i = 1; i < nums.size(); i++) {
-            if (nums[i] < nums[i - 1])
-                cnt++;
-        }
-
-        // Check the rotation part: if last element is greater than first, increment count
-        if (nums[nums.size() - 1] > nums[0])
+    // Count the number of places where the current element is less than the previous one
+    for (int i = 1; i < n; i++) {
+        if (nums[i] < nums[i - 1])
             cnt++;
-
-        // For a valid rotated sorted array, there should be at most one such "drop"
-        return cnt <= 1;
     }
-};
+
+    // Additional check between last and first element (for rotation)
+    if (nums[n - 1] > nums[0])
+        cnt++;
+
+    // For a sorted and rotated array, there should be at most one "drop" in order
+    return cnt <= 1;
+}
 
 int main() {
     int n;
-    cout << "Enter the number of elements in the array: ";
+    cout << "Enter number of elements: ";
     cin >> n;
 
     vector<int> nums(n);
-    cout << "Enter the elements of the array: ";
+    cout << "Enter elements: ";
     for (int i = 0; i < n; i++) {
         cin >> nums[i];
     }
 
-    Solution sol;
-    // Call the check function to see if the array is sorted and rotated
-    bool result = sol.check(nums);
-
-    // Print the result
-    if (result) {
+    // Call the function and print the result
+    if (isSortedAndRotated(nums)) {
         cout << "The array is sorted and rotated." << endl;
     } else {
         cout << "The array is NOT sorted and rotated." << endl;
