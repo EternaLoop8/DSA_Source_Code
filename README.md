@@ -40,7 +40,7 @@ Check out these featured repositories:
 
 - 📧 Email: 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/eternaloop/)
-- ✍️ [My Blog]() – Where I upload code and explanations
+- ✍️ [Blog]() – Where I upload code and explanations
 
 ---
 
