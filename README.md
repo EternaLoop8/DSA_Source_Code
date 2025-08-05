@@ -39,8 +39,8 @@ Check out these featured repositories:
 ## 📫 Connect With Me
 
 - 📧 Email: 
-- 🔗 [LinkedIn]()
-- ✍️ [My Blog](https://eternaloop8.wordpress.com/) – Where I upload code and explanations
+- 🔗 [LinkedIn](https://www.linkedin.com/in/eternaloop/)
+- ✍️ [My Blog]() – Where I upload code and explanations
 
 ---
 
