@@ -16,6 +16,5 @@ Implementing DSA and algorithm problems for learning and practice
 Contributing to personal projects and open-source repositories
 
 ## Contact Me
+
 LinkedIn:(https://www.linkedin.com/in/eternaloop/)
-
-
