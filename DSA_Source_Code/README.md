@@ -3,21 +3,25 @@ This repository contains my journey through Data Structures and Algorithms (DSA)
 
 ## Topics Covered (or to be covered)
 
-- Arrays
+- Arrays & Strings
 - Binary Search
 - Sorting
+- Sliding Window
 - Pointers
 - Dynamic Memory Allocation
-- Recursion
+- Recursion & Backtracking
 - OOPs
 - Linked List
 - Stacks
 - Queues
 - Binary Trees
 - Binary Search trees
+- Tries
 - Heaps
+- Priority Queue
+- Hashing
+- Maps
 - Hashmaps
-- Backtracking
 - Graphs
 - Dynamic Programming
 - Greedy Algorithm
