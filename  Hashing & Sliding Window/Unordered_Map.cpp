@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+    // Create an unordered map
+    unordered_map<string, int> umap;
+
+    // Insert key-value pairs into the unordered map
+    umap["Apple"] = 10;
+    umap["Mango"] = 20;
+    umap["Cherry"] = 30;
+
+    // Print the key-value pairs
+    for (auto it: umap){
+        cout << it.first << " " << it.second << endl;
+    }
+
+    return 0;
+}
